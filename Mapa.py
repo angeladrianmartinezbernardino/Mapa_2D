@@ -38,8 +38,44 @@ Intersecciones = {
     "AGC_IB": (50, 50),
     "MOB_PÁO": (1150, 550),
 
+    # Residencial Tecnológico.
+    "MOB_C": (450, 525),
+    "AGC_C": (450, 50),
+    "MOB_M": (500, 530),
+    "AGC_M": (500, 50),
+    "MOB_I": (550, 535),
+    "AGC_I": (550, 50),
+    "MOB_Q": (600, 540),
+    "X_Q": (600, 50),
+    "MOB_F": (650, 545),
+    "X_F": (650, 50),
+    "MOB_B": (700, 550),
+    "X_B": (700, 50),
+    "MOB_E": (750, 555),
+    "X_E": (750, 50),
+
+    "SF_I": (400, 460),
+    "I_C": (450, 460),
+    "I_M": (500, 460),
+    "I_I": (550, 460),
+    "I_Q": (600, 460),
+    "I_F": (650, 460),
+    "I_B": (700, 460),
+    "I_E": (750, 460),
+
+    "Ad_C": (450, 375),
+    "Ad_M": (500, 375),
+    "Ad_I": (550, 375),
+    "Ad_Q": (600, 375),
+    "Ad_F": (650, 375),
+
+    "SF_Ag": (400, 290),
+    "Ag_C": (450, 290),
+    "Ag_M": (500, 290),
+    "Ag_I": (550, 290),
+
     "MOB_A": (900, 550),
-    "AGC_A": (650, 50)
+    "AGC_A": (600, 50)
 }
 
 # Definición de calles como aristas con atributos
@@ -79,11 +115,7 @@ Calle = {
     "Calle16": {"origen": "SF_V", "destino": "SF_Ad", "nombre": ""},
     "Calle17": {"origen": "SF_Ad", "destino": "SF_S", "nombre": ""},
     "Calle18": {"origen": "SF_S", "destino": "SF_G", "nombre": ""},
-    "Calle19": {"origen": "SF_G", "destino": "SF_Pr", "nombre": ""},
-
-    "Calle411": {"origen": "MOB_SF", "destino": "MOB_A", "nombre": ""},
-    "Calle412": {"origen": "MOB_A", "destino": "AGC_A", "nombre": ""},
-    "Calle413": {"origen": "AGC_A", "destino": "AGC_SF", "nombre": ""}
+    "Calle19": {"origen": "SF_G", "destino": "SF_Pr", "nombre": ""}
     # Puedes añadir más calles con sus atributos
 }
 
