@@ -118,8 +118,21 @@ Calle = {
     "Calle16": {"origen": "SF_V", "destino": "SF_Ad", "nombre": ""},
     "Calle17": {"origen": "SF_Ad", "destino": "SF_S", "nombre": ""},
     "Calle18": {"origen": "SF_S", "destino": "SF_G", "nombre": ""},
-    "Calle19": {"origen": "SF_G", "destino": "SF_Pr", "nombre": ""}
+    "Calle19": {"origen": "SF_G", "destino": "SF_Pr", "nombre": ""},
+
     # Puedes añadir más calles con sus atributos
+    "Calle210": {"origen": "MOB_SF", "destino": "MOB_C", "nombre": ""},
+    "Calle211": {"origen": "MOB_C", "destino": "I_C", "nombre": ""},
+
+    "Calle21": {"origen": "MOB_C", "destino": "I_C", "nombre": ""},
+    "Calle22": {"origen": "MOB_M", "destino": "I_M", "nombre": ""},
+    "Calle23": {"origen": "MOB_I", "destino": "I_I", "nombre": ""},
+    "Calle24": {"origen": "MOB_Q", "destino": "I_Q", "nombre": ""},
+    "Calle25": {"origen": "MOB_F", "destino": "I_F", "nombre": ""},
+    "Calle26": {"origen": "MOB_B", "destino": "I_B", "nombre": ""},
+    "Calle27": {"origen": "MOB_E", "destino": "I_E", "nombre": ""},
+    "Calle28": {"origen": "SF_S", "destino": "SF_G", "nombre": ""},
+    "Calle29": {"origen": "SF_G", "destino": "SF_Pr", "nombre": ""}
 }
 
 # Construir conexiones entre calles (grafo enfocado en líneas)
