@@ -75,7 +75,10 @@ Intersecciones = {
     "Ag_I": (550, 290),
 
     "MOB_A": (900, 550),
-    "AGC_A": (600, 50)
+    "AGC_A": (600, 50),
+
+    "I_A": (800, 460),
+    "A_A": (700, 375)
 }
 
 # Definición de calles como aristas con atributos
